@@ -10,15 +10,22 @@ header {
     color: whitesmoke;
 }
 
-ul{
-    list-style: none;
-    padding: 25px;
+.logo {
     font-size: 18px;
     font-weight: 700;
 }
 
+ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 25px;
+    margin: 0;
+    gap: 10px
+}
+
 li {
-    display: inline;
+    cursor: pointer;
 }
 
 .icon {
