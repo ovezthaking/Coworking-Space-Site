@@ -88,6 +88,7 @@ h1 {
     cursor: pointer;
     box-shadow: 1px 1px 5px #999;
     display: flex;
+    z-index: 1;
 }
 
 .chatbox-img {
